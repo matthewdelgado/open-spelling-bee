@@ -18,9 +18,11 @@ def start_timer(duration):
     while True:
         remaining_time = int(end_time - time.time())
         if remaining_time <= 0:
-            print('Game over!')
+            print('\n')
+            print('Time is up! GAME OVER!')
             break
         if remaining_time % 10 == 0:
+            print('\n')
             print('Time remaining:', remaining_time, 'seconds')
         time.sleep(1)
 
@@ -44,6 +46,8 @@ def play(puzl):
 
     player_score = 0
     player_words = 0
+
+    incorrect_guesses = 0
 
     #print(word_list) # no cheating!
 
@@ -76,12 +80,16 @@ def play(puzl):
 
         # scenario 1: includes letter not in a list
         if any([x for x in guess if x not in letters]):
-            print ('Invalid letter(s)','\n')
+            print ('Invalid letter(s)!','\n')
+            incorrect_guesses += 1  # increment counter for incorrect guesses
+            print('Incorrect guesses: ', incorrect_guesses, '\n')
             continue
 
         # scenario 2: doesn't include center letter but all other letters valid
         if letters[0] not in guess:
             print ('Must include center letter:',letters[0],'\n')
+            incorrect_guesses += 1  # increment counter for incorrect guesses
+            print('Incorrect guesses: ', incorrect_guesses, '\n')
             continue
 
         # find index of array for matching word, if any
@@ -91,6 +99,8 @@ def play(puzl):
         if word_index is None:
             # scenario 4: not a valid word
             print ('Sorry,',guess,'is not a valid word','\n')
+            incorrect_guesses += 1  # increment counter for incorrect guesses
+            print('Incorrect guesses: ', incorrect_guesses, '\n')
             continue
         elif guess in guess_list:
             # scenario 5: good word but already found
@@ -112,10 +122,12 @@ def play(puzl):
 
             player_score += word_score
 
-            print_list = ['✓ '+guess, \
+            print_list = [
+                '✓ '+guess, \
                 'word score = '+str(word_score), \
                 'words found = '+str(player_words) + '/'+str(word_count), \
                 'total score = '+str(player_score) + '/'+str(total_score), \
+                'incorrect guesses = '+str(incorrect_guesses) \
                     ]
 
             if word_dict.get('word') in pangram_list:

@@ -22,15 +22,24 @@ def get_existing_puzzles():
 	existing_puzzles = [x.replace(params.PUZZLE_DATA_PATH + os.sep,'').replace('.json','') for x in existing_puzzles]
 	return existing_puzzles
 
-def get_words(word_file):
+def get_words(word_file, difficulty_level):
 
 	# https://github.com/jmlewis/valett/
 	# https://raw.githubusercontent.com/jmlewis/valett/master/scrabble/sowpods.txt
-
 	# http://scrabutility.com/TWL06.txt
 
 	with open(params.WORD_LIST_PATH,'r') as wp:
 		words = wp.readlines()
+
+		if difficulty_level == 1: # easy
+			# filter words with length <= EASY_WORD_LENGTH
+			words = [w.strip() for w in words if len(w.strip()) <= params.EASY_WORD_LENGTH]
+		elif difficulty_level == 2: # medium
+			# filter words with length <= MEDIUM_WORD_LENGTH and > EASY_WORD_LENGTH
+			words = [w.strip() for w in words if len(w.strip()) > params.EASY_WORD_LENGTH and len(w.strip()) <= params.MEDIUM_WORD_LENGTH]
+		elif difficulty_level == 3: # hard
+			# filter words with length > MEDIUM_WORD_LENGTH
+			words = [w.strip() for w in words if len(w.strip()) > params.MEDIUM_WORD_LENGTH]
 
 	# trim whitespace and remove short words
 	words = [w.strip() for w in words if len(w.strip()) >= params.MIN_WORD_LENGTH]
@@ -319,7 +328,7 @@ def main(puzzle_input=None):
 	# get array of previously generated puzzles, to check against
 	existing_puzzles = get_existing_puzzles()
 
-	words = get_words(params.WORD_LIST_PATH)
+	words = get_words(params.WORD_LIST_PATH, params.DIFFICULTY_LEVEL)
 	#words = words[0:10000] #debug
 	print ('total words: ', len(words))
 	pool = get_pangramable_letter_pool(words)

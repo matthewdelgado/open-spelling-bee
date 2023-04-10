@@ -1,0 +1,166 @@
+{
+    "letters": "RDENOUW",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 102,
+    "word_count": 28,
+    "pangram_count": 1,
+    "pangram_list": [
+        "WOUNDER"
+    ],
+    "word_list": [
+        {
+            "word": "DOURER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DRONED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DROWNED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ENDURE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ENDURED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ERODED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "NEURON",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ORDERED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "REDDEN",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REDDENED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "REDDER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REDONE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RENDER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RENDERED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "RENEWED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "RENOWN",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RENOWNED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "ROUNDED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ROUNDER",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "RUDDER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RUNDOWN",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "RUNNER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "WEDDER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "WONDER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "WONDERED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "WOODENER",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "WORDED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "WOUNDER",
+            "score": 4,
+            "pangram": true
+        }
+    ]
+}

@@ -1,0 +1,251 @@
+{
+    "letters": "TADEFGR",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 171,
+    "word_count": 45,
+    "pangram_count": 1,
+    "pangram_list": [
+        "GRAFTED"
+    ],
+    "word_list": [
+        {
+            "word": "AGGREGATE",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "AGGREGATED",
+            "score": 7,
+            "pangram": false
+        },
+        {
+            "word": "DARTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DEFEAT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DEFEATED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "DEFTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DETERRED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "DRAFTED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "FATTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FERRET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FERRETED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "FETTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FETTERED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "FRETTED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "GADGET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "GARRET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "GARTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "GRAFTED",
+            "score": 4,
+            "pangram": true
+        },
+        {
+            "word": "GRATED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "GRATER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "GREATER",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "GREETED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "RAFTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RAFTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RATTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REDRAFT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "REGATTA",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "REGRET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REGRETTED",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "RETARD",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RETARDED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "RETREAT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "RETREATED",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "TAGGED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TARGET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TARGETED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "TARRED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TARTAR",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TARTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TEARED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TEETER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TEETERED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "TRADED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TRADER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TREATED",
+            "score": 4,
+            "pangram": false
+        }
+    ]
+}

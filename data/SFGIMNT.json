@@ -1,0 +1,161 @@
+{
+    "letters": "SFGIMNT",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 114,
+    "word_count": 27,
+    "pangram_count": 1,
+    "pangram_list": [
+        "MISFITTING"
+    ],
+    "word_list": [
+        {
+            "word": "FITTINGS",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "INNINGS",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "INSIST",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "INSISTING",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "INSISTS",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "MINIMISING",
+            "score": 7,
+            "pangram": false
+        },
+        {
+            "word": "MISFIT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "MISFITS",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "MISFITTING",
+            "score": 7,
+            "pangram": true
+        },
+        {
+            "word": "MISSING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "MISTING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SIFTING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SIGNING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SINGING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SINNING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SITING",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "SITTING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SMITING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "SNIFFING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "SNIFFS",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "STIFFING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "STIFFS",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "STINGING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "STINGS",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "STINTING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "STINTS",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TIMINGS",
+            "score": 4,
+            "pangram": false
+        }
+    ]
+}

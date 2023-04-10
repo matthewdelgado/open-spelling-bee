@@ -1,0 +1,246 @@
+{
+    "letters": "ODEPRTX",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 164,
+    "word_count": 44,
+    "pangram_count": 1,
+    "pangram_list": [
+        "EXPORTED"
+    ],
+    "word_list": [
+        {
+            "word": "DEPORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DEPORTED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "DOTTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "DROOPED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "DROPPED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ERODED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "EXPORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "EXPORTED",
+            "score": 5,
+            "pangram": true
+        },
+        {
+            "word": "EXPORTER",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "EXTORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "EXTORTED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "ORDERED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "PODDED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "POOPED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "POORER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "POPPED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "PORTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "PORTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "POTTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "POTTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "POTTERED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "PRODDED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "PROPER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "PROPERER",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "PROPPED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "REPORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REPORTED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "REPORTER",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "RETORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RETORTED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "ROOTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ROOTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ROTTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TERROR",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOOTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOPPED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TORPEDO",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "TORPEDOED",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "TOTTED",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOTTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOTTERED",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "TROOPED",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "TROOPER",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "TROTTED",
+            "score": 4,
+            "pangram": false
+        }
+    ]
+}

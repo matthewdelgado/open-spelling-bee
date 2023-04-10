@@ -1,0 +1,221 @@
+{
+    "letters": "EAFNORT",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 142,
+    "word_count": 39,
+    "pangram_count": 1,
+    "pangram_list": [
+        "AFTERNOON"
+    ],
+    "word_list": [
+        {
+            "word": "AFTERNOON",
+            "score": 6,
+            "pangram": true
+        },
+        {
+            "word": "ANNOTATE",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "ANTEATER",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "ANTENNA",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ANTENNAE",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "EARNER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "EFFORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ENTRANT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ENTREAT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ENTREE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ERRANT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FANFARE",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "FATTEN",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FATTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FERRET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FETTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FOOTNOTE",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "FOREFRONT",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "NARRATE",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "NEARER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "NEATER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "OFTENER",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ORNATE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RAFTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REFEREE",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "RETORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RETREAT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ROOTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ROTATE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ROTTEN",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ROTTENER",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "TANNER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TARTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TEETER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TENANT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TERROR",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOFFEE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TORRENT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "TOTTER",
+            "score": 3,
+            "pangram": false
+        }
+    ]
+}

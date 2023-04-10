@@ -31,6 +31,9 @@ def play(puzl):
 
     letters = puzl.get('letters')
     print('Playing puzzle index:',letters)
+    print('Diffculty:', params.DIFFICULTY_LEVEL_NAME)
+    print('Min length of words:', params.EASY_WORD_LENGTH)
+    print('Max length of words:', params.MEDIUM_WORD_LENGTH)
 
     # letters = puzl.get('letters')
     print('Your letters are:',draw_letters_honeycomb(letters))

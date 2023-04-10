@@ -1,0 +1,156 @@
+{
+    "letters": "TCEFLOR",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 101,
+    "word_count": 26,
+    "pangram_count": 1,
+    "pangram_list": [
+        "REFLECTOR"
+    ],
+    "word_list": [
+        {
+            "word": "COLLECT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "COLLECTOR",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "CORRECT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "CORRECTER",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "CORRECTOR",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "EFFECT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "EFFORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ELECTOR",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "FERRET",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FETTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "FLEETER",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "FORETELL",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "LEFTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "LETTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "RECOLLECT",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "RECTOR",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "REELECT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "REFLECT",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "REFLECTOR",
+            "score": 6,
+            "pangram": true
+        },
+        {
+            "word": "RETORT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "ROOTER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TEETER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TELLER",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TERROR",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOFFEE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TOTTER",
+            "score": 3,
+            "pangram": false
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "letters": "HCEGINT",
+    "generation_info": {
+        "path": "word_lists/scowl.txt",
+        "min_word_length": 4,
+        "total_letter_count": 7,
+        "min_word_count": 25,
+        "max_word_count": 50,
+        "min_total_score": 60,
+        "max_total_score": 240,
+        "cap_plurals": true,
+        "max_plurals": 3,
+        "cap_gerunds": true,
+        "max_gerunds": 5,
+        "count_pangrams": 1,
+        "manual_puzzle": false
+    },
+    "total_score": 127,
+    "word_count": 27,
+    "pangram_count": 1,
+    "pangram_list": [
+        "ETCHING"
+    ],
+    "word_list": [
+        {
+            "word": "CHINNING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "CINCHING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "EIGHTEEN",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "EIGHTEENTH",
+            "score": 7,
+            "pangram": false
+        },
+        {
+            "word": "EIGHTH",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "EIGHTIETH",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "ETCHING",
+            "score": 4,
+            "pangram": true
+        },
+        {
+            "word": "ETHNIC",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "HECTIC",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "HEIGHT",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "HEIGHTEN",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "HEIGHTENING",
+            "score": 8,
+            "pangram": false
+        },
+        {
+            "word": "HINGING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "HINTING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "HITCHING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "HITTING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "INCHING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "ITCHING",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "NEIGHING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "NINETEENTH",
+            "score": 7,
+            "pangram": false
+        },
+        {
+            "word": "NINETIETH",
+            "score": 6,
+            "pangram": false
+        },
+        {
+            "word": "TEETHE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "TEETHING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "THENCE",
+            "score": 3,
+            "pangram": false
+        },
+        {
+            "word": "THINNING",
+            "score": 5,
+            "pangram": false
+        },
+        {
+            "word": "TIGHTEN",
+            "score": 4,
+            "pangram": false
+        },
+        {
+            "word": "TIGHTENING",
+            "score": 7,
+            "pangram": false
+        }
+    ]
+}

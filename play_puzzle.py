@@ -8,6 +8,21 @@ import utils
 import os
 import sys
 import random
+import threading
+import time
+
+# Define a function to start the timer and return the remaining time
+def start_timer(duration):
+    start_time = time.time()
+    end_time = start_time + duration
+    while True:
+        remaining_time = int(end_time - time.time())
+        if remaining_time <= 0:
+            print('Game over!')
+            break
+        if remaining_time % 10 == 0:
+            print('Time remaining:', remaining_time, 'seconds')
+        time.sleep(1)
 
 def play(puzl):
     print('Type !help or !h for help')
@@ -35,8 +50,12 @@ def play(puzl):
     guess_list = []
     player_pangram = False
 
+    # Create a timer thread
+    timer_thread = threading.Thread(target=start_timer, args=(60,))
+    timer_thread.start()
+
     # loop until game ends
-    while True:
+    while timer_thread.is_alive():
         # ask user to guess a word
         guess = ask_user()
 
@@ -112,6 +131,8 @@ def play(puzl):
         # all words found (somehow this could be possible)
         if player_words == word_count:
             print ('Congratulations. You found them all!','\n')
+
+    print("Game over.")
 
 def shuffle_letters(letters):
     # shuffles letters, excluding the center letter

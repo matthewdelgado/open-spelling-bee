@@ -15,7 +15,7 @@ def play(puzl):
     letters = puzl.get('letters')
     print('Playing puzzle index:',letters)
 
-#    letters = puzl.get('letters')
+    # letters = puzl.get('letters')
     print('Your letters are:',draw_letters_honeycomb(letters))
 
     word_list = puzl.get('word_list')

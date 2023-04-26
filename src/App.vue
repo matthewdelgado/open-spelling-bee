@@ -9,41 +9,51 @@ import allAnswers from "../data/allAnswers.json";
 import { useMainStore } from "./store";
 import { InfoFilled, Sunny, Moon } from "@element-plus/icons-vue";
 
+// Create the Vuex store using the useMainStore function
 const store = useMainStore();
-const showInfo = ref(false);
-const zindex = ref(0);
-const gameWonModalShown = ref(false);
-let timer: any;
 
+// Create reactive variables for various functionalities
+const showInfo = ref(false); // Display the information modal
+const zindex = ref(0); // Z-index of the correct guesses display
+const gameWonModalShown = ref(false); // Display the game won modal
+let timer: any; // Timer used for displaying the correct guesses
+
+// Create a reactive variable for the dark mode theme
 const darkmode = ref(store.theme === "dark");
 
+// Function to toggle the dark mode theme
 const onToggleDarkMode = () => {
   if (darkmode.value === true) {
-    store.theme = "dark";
-    document.documentElement.classList.add("dark");
+    store.theme = "dark"; // Set the Vuex store's theme to dark
+    document.documentElement.classList.add("dark"); // Add the dark class to the document element
   } else {
-    store.theme = "light";
-    document.documentElement.classList.remove("dark");
+    store.theme = "light"; // Set the Vuex store's theme to light
+    document.documentElement.classList.remove("dark"); // Remove the dark class from the document element
   }
 };
 
+// Computed property to show the game won modal when the game is won
 const showGameWonModal = computed(
   () => store.getProgressPercentage === 100 && gameWonModalShown.value === false
 );
 
+// Function to show the correct guesses display
 const onOpenCorrectGuesses = () => {
-  clearTimeout(timer);
-  zindex.value = -1;
+  clearTimeout(timer); // Clear the timer
+  zindex.value = -1; // Set the z-index to -1 to show the correct guesses display
 };
 
+// Function to hide the correct guesses display
 const onCloseCorrectGuesses = () => {
   timer = setTimeout(() => {
-    zindex.value = 0;
-  }, 2000);
+    zindex.value = 0; // Set the z-index to 0 to hide the correct guesses display
+  }, 2000); // Display the correct guesses for 2 seconds before hiding it
 };
 
+// Call the onToggleDarkMode function when the component is mounted
 onMounted(onToggleDarkMode);
 
+// Start the game by calling the startGame function on the Vuex store
 store.startGame({ allAnswers });
 </script>
 

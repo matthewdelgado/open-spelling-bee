@@ -25,6 +25,7 @@ let userGuess = ref("");
 const submitGuess = ({ $t, guess }: { $t: Function; guess: string }) => {
   userGuess.value = ""; // Clear the user's guess
   store.submitGuess({ $t, guess }); // Submit the guess to the Vuex store
+  time.value = 60; // Reset the time left in the game
 };
 
 // Create a reactive variable for the time left in the game

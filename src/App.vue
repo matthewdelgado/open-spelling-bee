@@ -72,7 +72,7 @@ store.startGame({ allAnswers });
     <div class="afterFireworks" v-if="showGameWonModal" />
     <el-header height="2em" id="title-header">
       <h2>
-        <strong>FIT Spelling Bee</strong>
+        <strong>Spelling Bee</strong> <span><small><em>{{ store.getGameDateString }}</em></small></span>
       </h2>
     </el-header>
     <el-menu mode="horizontal" :ellipsis="false">

@@ -1,3 +1,4 @@
+// Import the necessary functions and modules
 import { defineStore } from "pinia";
 import { useStorage } from "@vueuse/core";
 import { ElMessage } from "element-plus";
@@ -5,11 +6,13 @@ import { differenceInDays, isSameDay } from "date-fns";
 import { incrementDups } from "./utils";
 import { Answer } from "./models/answer";
 
+// Set the epoch to a specific date (used for initialization)
 const epoch = new Date("2022-01-01");
 
+// Define the Vuex store using the defineStore function from Pinia
 export const useMainStore = defineStore({
-  id: "main",
-  state: () => ({
+  id: "main", // Set the store ID to "main"
+  state: () => ({ // Define the store's initial state
     correctGuesses: useStorage("correctGuesses", new Set([]) as Set<string>),
     answers: useStorage("answers", [] as Array<string>),
     availableLetters: useStorage("availableLetters", "" as string),
@@ -31,20 +34,18 @@ export const useMainStore = defineStore({
       8: "Amazing",
     } as { [key: number]: string },
   }),
-  getters: {
-    // TODO: move getMaxScore, getScoreLevels to state? compute once at startGame
-    getMaxScore(): number {
+  getters: { // Define the store's getters
+    getMaxScore(): number { // Get the maximum possible score
       return this.answers.reduce((acc: number, word: string): number => {
         // @ts-ignore issue with this ref? says .calculatePoints is undefined here but not outside arrow funcs
         return acc + this.calculatePoints({ word });
       }, 0);
     },
-    getMinScore(): number {
+    getMinScore(): number { // Get the minimum possible score
       const minNumWords = 20;
-      return minNumWords - 1 + 14; 
+      return minNumWords - 1 + 14; // The minimum score is 33
     },
-    getScoreLevels(): Array<number> {
-      // TODO: fix tests, getMaxScore 50 should produce dups
+    getScoreLevels(): Array<number> { // Get the score levels
       const levels = [
         0,
         5,
@@ -56,11 +57,11 @@ export const useMainStore = defineStore({
         Math.floor(this.getMaxScore * 0.55),
         Math.floor(this.getMaxScore * 0.6),
       ].sort((a, b) => a - b);
-      const uniqueLevels = incrementDups(levels);
+      const uniqueLevels = incrementDups(levels); // Use the incrementDups function to remove duplicates
       const minUniqueLevel = Math.min(...uniqueLevels);
-      return uniqueLevels.map((l: number) => l - minUniqueLevel);
+      return uniqueLevels.map((l: number) => l - minUniqueLevel); // Map the levels to start at zero
     },
-    getCorrectGuesses(): Array<string> {
+    getCorrectGuesses(): Array<string> { // Get the correct guesses array
       return Array.from(this.correctGuesses);
     },
     getProgressIndex(): number {

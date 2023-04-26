@@ -3,30 +3,39 @@ import { ref } from "vue";
 import { useMainStore } from "../store";
 import { shuffle } from "../utils";
 
+// Define the props for the component, including the z-index for the display
 defineProps({
   ZIndex: Number,
 });
+
+// Create the Vuex store using the useMainStore function
 const store = useMainStore();
 
+// Create a reactive variable for the available letters, excluding the middle letter
 const otherLetters = ref(
   store.availableLetters
-  .split("")
+    .split("")
     .filter((l: string) => l !== store.middleLetter)
-    );
-    let userGuess = ref("");
-    
-  const submitGuess = ({ $t, guess }: { $t: Function; guess: string }) => {
-    userGuess.value = "";
-    store.submitGuess({ $t, guess });
-  };
+);
 
-  const time = ref(60);
+// Create a reactive variable for the user's guess
+let userGuess = ref("");
 
-  setInterval(() => {
-    if (time.value > 0) {
-      time.value--;
-    }
-  }, 1000);
+// Function to submit the user's guess
+const submitGuess = ({ $t, guess }: { $t: Function; guess: string }) => {
+  userGuess.value = ""; // Clear the user's guess
+  store.submitGuess({ $t, guess }); // Submit the guess to the Vuex store
+};
+
+// Create a reactive variable for the time left in the game
+const time = ref(60);
+
+// Decrement the time variable every second
+setInterval(() => {
+  if (time.value > 0) {
+    time.value--;
+  }
+}, 1000);
 </script>
 
 <template>

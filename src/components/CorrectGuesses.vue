@@ -6,26 +6,34 @@ import { gridify } from "../utils";
 import { useI18n } from "vue-i18n";
 import en from "../locales/en.json";
 
+// Create an instance of the useI18n function for internationalization
 const { t } = useI18n({
-  inheritLocale: true,
+  inheritLocale: true, // Inherit the locale from the parent component
   messages: {
-    en,
+    en, // Use the English locale
   },
 });
 
+// Create the Vuex store using the useMainStore function
 const store = useMainStore();
+
+// Create a reactive variable to show the found words
 const showWords = ref([false]);
+
+// Computed property to display the number of correct guesses found
 const numCorrectMessage = computed(() => {
-  return t("foundWords", store.getCorrectGuesses.length);
+  return t("foundWords", store.getCorrectGuesses.length); // Display the number of correct guesses found using the localized message
 });
 
+// Computed property to display the last five correct guesses found
 const lastFiveGuesses = computed(() => {
-  const numGuessesToShow = Math.min(store.getCorrectGuesses.length, 5);
-  return store.getCorrectGuesses.reverse().slice(0, numGuessesToShow);
+  const numGuessesToShow = Math.min(store.getCorrectGuesses.length, 5); // Get the number of correct guesses to show, maximum 5
+  return store.getCorrectGuesses.reverse().slice(0, numGuessesToShow); // Reverse the array and slice the first 5 elements
 });
 
+// Computed property to display the grid of correct guesses found
 const gridData = computed(
-  () => gridify({ arr: Array.from(store.getCorrectGuesses).sort(), size: 3 })
+  () => gridify({ arr: Array.from(store.getCorrectGuesses).sort(), size: 3 }) // Gridify the correct guesses array and display in groups of 3
 );
 </script>
 

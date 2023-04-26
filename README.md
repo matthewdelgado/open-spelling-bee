@@ -1,9 +1,10 @@
 # Florida Tech's Spelling Bee Game
 
-Developed by: Andres Esperandio, Arianna Issitt, and Matthew Delgado <br>
-CSE 2410: Introduction to Software Engineering <br>
-Dr. Khaled Salhoub <br>
-April 17th, 2023
+Developed by: Andres Esperandio, Arianna Issitt, and Matthew Delgado<br>
+CSE 2410: Introduction to Software Engineering<br>
+Professor: Dr. Khaled Salhoub<br>
+GSA: Richard Diaz<br>
+April 26th, 2023
 
 # Assignment
 
@@ -70,6 +71,6 @@ yarn install
 
 # dev server
 yarn dev
-# production build (fails to open locally with file:// protocol due to cors)
+
 yarn build
 ```
